@@ -11,7 +11,7 @@ if __name__ == '__main__':
     @app.route('/')
     def index():
         return render_template('index.html')
-    @app.route('/', methods = ['POST'])
+    @app.route('/', methods = ['POST','GET'])
     def abou():
         ques = request.form['box']
         answer = b1.question(ques)
