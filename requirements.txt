@@ -24,13 +24,11 @@ pluggy==0.13.1
 py==1.9.0
 pymongo==3.11.0
 pyparsing==2.4.7
-pypiwin32==223
 pytest==6.1.1
 python-dateutil==2.8.1
 pyttsx3==2.90
 pytz==2020.1
 PyYAML==3.13
-regex==2020.10.23
 requests==2.24.0
 six==1.15.0
 soupsieve==2.0.1
