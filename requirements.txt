@@ -53,5 +53,5 @@ toml==0.10.1
 tqdm==4.51.0
 urllib3==1.25.11
 virtualenv==20.0.30
-waitress==1.4.4
+
 
