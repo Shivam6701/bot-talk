@@ -1,10 +1,12 @@
 from flask import Flask , render_template, request
 from chatbot import Bot
 
+app = Flask(__name__)
+
 if __name__ == '__main__':
     b1 = Bot()
 
-    app = Flask(__name__)
+    
 
     @app.route('/')
     def index():
