@@ -3,14 +3,13 @@ from chatbot import Bot
 
 app = Flask(__name__)
 
-
 b1 = Bot()
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-@app.route('/', methods=['POST','GET'])
+@app.route('/', methods=['POST'])
 def abou():
     ques = request.form['box']
     answer = b1.question(ques)
