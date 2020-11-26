@@ -10,7 +10,7 @@ b1 = Bot()
 def index():
     return render_template('index.html')
 
-@app.route('/', methods=['POST'])
+@app.route('/', method=['POST','GET'])
 def abou():
     ques = request.form['box']
     answer = b1.question(ques)
